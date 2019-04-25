@@ -23,6 +23,12 @@
 		},
 		{
 			"path": "directives-start"
+		},
+		{
+			"path": "prj-directives-final"
+		},
+		{
+			"path": "services-start"
 		}
 	]
 }
