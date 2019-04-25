@@ -1,22 +1,22 @@
 {
 	"folders": [
 		{
-			"path": "my-dream-app"
+			"path": "kootenai-web"
 		},
 		{
-			"path": "my-first-app"
+			"path": "my-app"
 		},
 		{
-			"path": "my-project"
+			"path": "angular-tour-of-heroes"
 		},
 		{
-			"path": "debugging"
+			"path": "yogaeasy-frontend"
 		},
 		{
 			"path": "cmp-databinding-start"
 		},
 		{
-			"path": "cmp-databinding-assignment-start"
+			"path": "basics-assignment-1-start"
 		},
 		{
 			"path": "prj-basics-final"
