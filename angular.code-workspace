@@ -14,6 +14,12 @@
 		},
 		{
 			"path": "cmp-databinding-start"
+		},
+		{
+			"path": "cmp-databinding-assignment-start"
+		},
+		{
+			"path": "prj-basics-final"
 		}
 	]
 }
