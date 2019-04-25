@@ -29,6 +29,9 @@
 		},
 		{
 			"path": "services-start"
+		},
+		{
+			"path": "services-assignment-start"
 		}
 	]
 }
