@@ -1,3 +1,6 @@
-<p>
-  chat-input works!
-</p>
+<label>Message:
+  <input [(ngModel)]="messageInput" (keypress)="insertToChat()" class="form-control"/>
+  <!-- <input [(ngModel)]="messageInput" placeholder="Chat Message" /> -->
+</label>
+<button class="btn btn-primary" (click)="insertToChat()">Send</button>
+<p>Input: {{ messageInput }}</p>
