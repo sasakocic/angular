@@ -35,6 +35,9 @@
 		},
 		{
 			"path": "chat"
+		},
+		{
+			"path": "routing-start"
 		}
 	]
 }
