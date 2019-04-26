@@ -6,7 +6,7 @@ import { EventEmitter } from '@angular/core';
 //   providedIn: 'root'
 // })
 export class ShoppingListService {
-  ingredientChanged = new EventEmitter<Ingredient[]>();
+  ingredientsChanged = new EventEmitter<Ingredient[]>();
 
   private ingredients: Ingredient[] = [
     new Ingredient('Apples', 5),
@@ -21,6 +21,14 @@ export class ShoppingListService {
 
   addIngredient(ingredient: Ingredient) {
     this.ingredients.push(ingredient);
-    this.ingredientChanged.emit(this.getIngredients());
+    this.ingredientsChanged.emit(this.getIngredients());
+  }
+
+  addIngredients(ingredients: Ingredient[]) {
+    // for (let ingredient of ingredients) {
+    //   this.addIngredients(ingredient);
+    // }
+    this.ingredients.push(...ingredients);
+    this.ingredientsChanged.emit(this.getIngredients());
   }
 }
