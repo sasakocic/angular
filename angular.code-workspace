@@ -38,6 +38,12 @@
 		},
 		{
 			"path": "routing-start"
+		},
+		{
+			"path": "routing-final"
+		},
+		{
+			"path": "my-project"
 		}
 	]
 }
