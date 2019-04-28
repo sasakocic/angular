@@ -44,6 +44,9 @@
 		},
 		{
 			"path": "my-project"
+		},
+		{
+			"path": "observables-start"
 		}
 	]
 }
