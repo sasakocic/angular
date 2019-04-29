@@ -14,7 +14,7 @@ export class AppComponent {
   }
 
   onSubmit() {
-    console.log(this.signupForm);
+    console.log(this.signupForm); // ng-invalid ng-valid class
   }
   // onSubmit(form: NgForm) {
   //   console.log(form.value); // usefulproperties: dirty, enabled, disabled, invalid, touched
