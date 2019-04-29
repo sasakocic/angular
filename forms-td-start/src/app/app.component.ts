@@ -10,6 +10,14 @@ export class AppComponent {
   answer = '';
   defaultQuestion = 'pet';
   genders = ['male', 'female'];
+  user = {
+    username: '',
+    email: '',
+    secretQuestion: '',
+    answer: '',
+    gender: ''
+  };
+  submitted = false;
   @ViewChild('f') signupForm: NgForm;
 
   suggestUserName() {
@@ -32,6 +40,12 @@ export class AppComponent {
 
   onSubmit() {
     console.log(this.signupForm); // ng-invalid ng-valid class
+    this.submitted = true;
+    this.user.username = this.signupForm.value.userData.username;
+    this.user.email = this.signupForm.value.userData.email;
+    this.user.secretQuestion = this.signupForm.value.secret;
+    this.user.answer = this.signupForm.value.questionAnswer;
+    this.user.gender = this.signupForm.value.gender;
   }
   // onSubmit(form: NgForm) {
   //   console.log(form.value); // usefulproperties: dirty, enabled, disabled, invalid, touched
