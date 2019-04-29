@@ -46,6 +46,8 @@ export class AppComponent {
     this.user.secretQuestion = this.signupForm.value.secret;
     this.user.answer = this.signupForm.value.questionAnswer;
     this.user.gender = this.signupForm.value.gender;
+
+    this.signupForm.reset();
   }
   // onSubmit(form: NgForm) {
   //   console.log(form.value); // usefulproperties: dirty, enabled, disabled, invalid, touched
