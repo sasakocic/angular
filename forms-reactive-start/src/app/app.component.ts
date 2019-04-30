@@ -21,6 +21,19 @@ export class AppComponent implements OnInit {
       (value) => console.log(value)
     );
     this.signupForm.statusChanges.subscribe((status) => console.log(status));
+    this.signupForm.setValue({
+      'userData': {
+        'username': 'Max',
+        'email': 'hi@example.com',
+        'gender': 'male',
+        'hobbies': []
+      }
+    });
+    this.signupForm.patchValue({
+      userData: {
+        username: 'Anna'
+      }
+    });
   }
   genders = ["male", "female"];
   signupForm: FormGroup;
@@ -28,6 +41,7 @@ export class AppComponent implements OnInit {
 
   onSubmit() {
     console.log(this.signupForm);
+    this.signupForm.reset();
   }
 
   onAddHobby() {
