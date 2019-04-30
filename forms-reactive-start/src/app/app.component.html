@@ -29,8 +29,8 @@
               formControlName="gender"
               [value]="gender">{{ gender }}
           </label>
-          <span *ngIf="!signupForm.get('gender').valid && signupForm.get('gender').touched" class="help-block">Please enter a valid gender!</span>
         </div>
+        <span *ngIf="!signupForm.valid && signupForm.touched" class="help-block">Please enter a valid data!</span>
         <button class="btn btn-primary" type="submit">Submit</button>
       </form>
     </div>
