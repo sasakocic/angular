@@ -56,6 +56,9 @@
 		},
 		{
 			"path": "forms-td-assignment-start"
+		},
+		{
+			"path": "forms-reactive-start"
 		}
 	]
 }
