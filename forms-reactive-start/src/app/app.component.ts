@@ -16,4 +16,8 @@ export class AppComponent implements OnInit {
   }
   genders = ['male', 'female'];
   signupForm: FormGroup;
+
+  onSubmit() {
+    console.log(this.signupForm);
+  }
 }
