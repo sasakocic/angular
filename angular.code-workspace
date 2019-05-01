@@ -66,5 +66,10 @@
 		{
 			"path": "pipes-start"
 		}
-	]
+	],
+	"settings": {
+		"cSpell.words": [
+			"instance"
+		]
+	}
 }
