@@ -7,6 +7,7 @@ import 'rxjs/Rx';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  appName = this.serverService.getAppname();
   servers = [
     {
       name: 'Testserver',
