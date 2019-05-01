@@ -62,6 +62,9 @@
 		},
 		{
 			"path": "forms-reactive-assignment-start"
+		},
+		{
+			"path": "pipes-start"
 		}
 	]
 }
