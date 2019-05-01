@@ -65,6 +65,15 @@
 		},
 		{
 			"path": "pipes-start"
+		},
+		{
+			"path": "pipes-final"
+		},
+		{
+			"path": "pipes-assignment-start"
+		},
+		{
+			"path": "http-start"
 		}
 	],
 	"settings": {
