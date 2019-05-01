@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ServerService } from './server.service';
-
+import 'rxjs/Rx';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -42,10 +42,7 @@ export class AppComponent {
 
   onGet() {
     this.serverService.getServers().subscribe(
-      (response: Response) => {
-        const data = response.json();
-        console.log(data);
-      },
+      (servers: any[]) => console.log(servers),
       (error) => console.log(error)
     );
   }
