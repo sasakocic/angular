@@ -64,10 +64,24 @@
 			"path": "forms-reactive-assignment-start"
 		},
 		{
-			"path": "/Users/skocic/Downloads/ueb3_V0"
+			"path": "prj-forms-final"
 		},
 		{
-			"path": "prj-forms-final"
+			"path": "pipes-start"
+		},
+		{
+			"path": "pipes-final"
+		},
+		{
+			"path": "pipes-assignment-start"
+		},
+		{
+			"path": "http-start"
 		}
-	]
+	],
+	"settings": {
+		"cSpell.words": [
+			"instance"
+		]
+	}
 }
