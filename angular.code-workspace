@@ -64,6 +64,9 @@
 			"path": "forms-reactive-assignment-start"
 		},
 		{
+			"path": "prj-forms-final"
+		},
+		{
 			"path": "pipes-start"
 		},
 		{
@@ -74,10 +77,14 @@
 		},
 		{
 			"path": "http-start"
+		},
+		{
+			"path": "authentication-final"
 		}
 	],
 	"settings": {
 		"cSpell.words": [
+			"dropdown",
 			"instance"
 		]
 	}
