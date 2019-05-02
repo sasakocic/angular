@@ -77,10 +77,14 @@
 		},
 		{
 			"path": "http-start"
+		},
+		{
+			"path": "authentication-final"
 		}
 	],
 	"settings": {
 		"cSpell.words": [
+			"dropdown",
 			"instance"
 		]
 	}
