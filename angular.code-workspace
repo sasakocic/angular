@@ -80,12 +80,16 @@
 		},
 		{
 			"path": "authentication-final"
+		},
+		{
+			"path": "httpclient-start"
 		}
 	],
 	"settings": {
 		"cSpell.words": [
 			"dropdown",
-			"instance"
+			"instance",
+			"signin"
 		]
 	}
 }
