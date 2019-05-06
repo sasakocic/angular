@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Response } from '@angular/http';
 import 'rxjs/Rx';
 
 import { RecipeService } from '../recipes/recipe.service';
 import { Recipe } from '../recipes/recipe.model';
 import { AuthService } from '../auth/auth.service';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable()
 export class DataStorageService {
@@ -16,12 +15,15 @@ export class DataStorageService {
 
   storeRecipes() {
     const token = this.authService.getToken();
+    // const header = new HttpHeaders()
+    //   .set("Authorization", "Bearer afkksdfadsfads");
 
     return this.httpClient.put(
       "https://ng-recipe-book-aa489.firebaseio.com/recipes.json?auth=" +
         token,
       this.recipeService.getRecipes(), {
-        observe: 'body'
+        observe: 'body',
+        // headers: header
       }
     );
   }
