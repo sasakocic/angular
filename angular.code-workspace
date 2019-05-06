@@ -83,6 +83,9 @@
 		},
 		{
 			"path": "httpclient-start"
+		},
+		{
+			"path": "my-tests"
 		}
 	],
 	"settings": {
