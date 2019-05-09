@@ -86,6 +86,9 @@
 		},
 		{
 			"path": "my-tests"
+		},
+		{
+			"path": "services-assignment-solution"
 		}
 	],
 	"settings": {
